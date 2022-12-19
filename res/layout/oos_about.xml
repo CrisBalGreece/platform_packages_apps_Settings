@@ -39,7 +39,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="@color/acc3"
                     android:id="@+id/version"
-                    android:text="3.3"
+                    android:text="3.44"
                     android:textStyle="bold"
 
                     android:textSize="25sp" />
@@ -48,7 +48,7 @@
                     android:layout_height="wrap_content"
                     android:textColor="#9F9F9F"
                     android:id="@+id/tag"
-                    android:text="Snowcone"
+                    android:text="Winter"
                     android:layout_gravity="bottom"
                     android:layout_marginStart="10dp"
                     android:layout_marginBottom="1dp"
@@ -147,7 +147,7 @@
                                 android:layout_height="wrap_content"
                                 android:textColor="@color/text"
 
-                                android:text="Security patch"
+                                android:text="@string/security_patch_text"
                                 android:textStyle="bold"
 
                                 android:textSize="20sp" />
@@ -196,7 +196,7 @@ app:cardElevation="0dp"
                                     android:layout_height="wrap_content"
                                     android:layout_gravity="center"
                                     android:textColor="#fff"
-                                    android:text="Android 12"
+                                    android:text="Android 12L"
                                     android:textStyle="bold"
                                     android:layout_marginStart="5dp"
                                     android:textSize="18sp" />
@@ -242,7 +242,7 @@ app:cardElevation="0dp"
                         android:layout_marginStart="5dp"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/acc"
-                        android:text="H/W Info"/>
+                        android:text="@string/hw_info_text"/>
                     <LinearLayout
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="10dp"
@@ -405,7 +405,7 @@ app:cardElevation="0dp"
                                 android:layout_marginStart="5dp"
                                 android:layout_marginVertical="4dp"
                                 android:textColor="@color/acc"
-                                android:text="Chip Info"/>
+                                android:text="@string/chip_info_text"/>
                             <LinearLayout
 
                                 android:layout_width="match_parent"
@@ -588,7 +588,7 @@ app:cardElevation="0dp"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="5dp"
                     android:textColor="@color/acc"
-                    android:text="Kernel Info"/>
+                    android:text="@string/kernel_info_text"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -640,7 +640,7 @@ app:cardElevation="0dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textColor="@color/text"
-        android:text="Kernel Version"
+        android:text="@string/kernel_version_text"
         android:textSize="16sp" />
     <TextView
         android:layout_width="match_parent"
@@ -711,7 +711,7 @@ app:cardElevation="0dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:textColor="@color/text"
-                                    android:text="SELinux Status"
+                                    android:text="@string/selinux_status_text"
 
                                     android:textSize="16sp" />
                                 <TextView
@@ -777,7 +777,7 @@ app:cardElevation="0dp"
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:textColor="@color/text"
-                                    android:text="Baseband Version"
+                                    android:text="@string/baseband_info_text"
 
                                     android:textSize="16sp" />
                                 <TextView

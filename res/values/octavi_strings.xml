@@ -399,4 +399,12 @@
     <string name="columbus_setting_enable_switch_title">Use Quick Tap</string>
     <string name="columbus_setting_sensitivity_title">Require stronger taps</string>
     <string name="columbus_summary">%1$s / %2$s</string>
+    <!-- About Info -->
+    <string name="security_patch_text">Security patch</string>
+    <string name="hw_info_text">Battery|Cameras|Screen</string>
+    <string name="chip_info_text">Chip Info</string>
+    <string name="kernel_info_text">Kernel Info</string>
+    <string name="kernel_version_text">Kernel Version</string>
+    <string name="selinux_status_text">Selinux Status</string>
+    <string name="baseband_info_text">Baseband Version</string>
 </resources>
